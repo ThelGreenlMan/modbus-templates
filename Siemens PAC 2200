@@ -1,0 +1,155 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isScale
+30002	Spannung UL1-N		V	floatbe	2	1	0		value			
+30004	Spannung UL2-N		V	floatbe	2	1	0		value			
+30006	Spannung UL3-N		V	floatbe	2	1	0		value			
+30008	Spannung UL1-L2		V	floatbe	2	1	0		value			
+30010	Spannung UL2-L3		V	floatbe	2	1	0		value			
+30012	Spannung UL3-L1		V	floatbe	2	1	0		value			
+30014	Strom L1		A	floatbe	2	1	0		value			
+30016	Strom L2		A	floatbe	2	1	0		value			
+30018	Strom L3		A	floatbe	2	1	0		value			
+30020	Scheinleistung L1		VA	floatbe	2	1	0		value			
+30022	Scheinleistung L2		VA	floatbe	2	1	0		value			
+30024	Scheinleistung L3		VA	floatbe	2	1	0		value			
+30026	Wirkleistung L1		W	floatbe	2	1	0		value			
+30028	Wirkleistung L2		W	floatbe	2	1	0		value			
+30030	Wirkleistung L3		W	floatbe	2	1	0		value			
+30032	Blindleistung L1		var	floatbe	2	1	0		value			
+30034	Blindleistung L2		var	floatbe	2	1	0		value			
+30036	Blindleistung L3		var	floatbe	2	1	0		value			
+30038	Leistungsfaktor L1			floatbe	2	1	0		value			
+30040	Leistungsfaktor L2			floatbe	2	1	0		value			
+30042	Leistungsfaktor L3			floatbe	2	1	0		value			
+30056	Frequenz		Hz	floatbe	2	1	0		value			
+30058	Mittelwert Spannung UL-N		V	floatbe	2	1	0		value			
+30060	Mittelwert Spannung UL-L		V	floatbe	2	1	0		value			
+30062	Mittelwert Strom		A	floatbe	2	1	0		value			
+30064	Summe der Scheinleistung		VA	floatbe	2	1	0		value			
+30066	Summe der Wirkleistung		W	floatbe	2	1	0		value			
+30068	Summe der Blindleistung		var	floatbe	2	1	0		value			
+30070	Gesamt-Leistungsfaktor			floatbe	2	1	0		value			
+30072	Neutralleiterstrom		A	floatbe	2	1	0		value			
+30206	Gerätediagnose und Gerätestatus			uint32be	2	1	0		state			
+30208	Status der digitalen Ausgänge			uint32be	2	1	0		state			
+30210	Status der digitalen Eingänge			uint32be	2	1	0		state			
+30212	Aktiver Tarif			uint32be	2	1	0		state			
+30216	Universalzähler			uint32be	2	1	0		state			
+30218	Zähler von relevanten Parameteränderungen			uint32be	2	1	0		state			
+30220	Zähler aller Parameteränderungen			uint32be	2	1	0		state			
+30232	Konfigurierbarer Energiezähler		kWh	floatbe	2	1	0		value			
+30266	Tagesprofilzähler			uint32be	2	1	0		state			
+30268	Monatsprofilzähler			uint32be	2	1	0		state			
+30270	Jahresprofilzähler			uint32be	2	1	0		state			
+30502	Kumulierter Wirkleistungsmittelwert Bezug		W	floatbe	2	1	0		value			
+30504	Kumulierter Blindleistungsmittelwert Bezug		var	floatbe	2	1	0		value			
+30506	Kumulierter Wirkleistungsmittelwert Abgabe		W	floatbe	2	1	0		value			
+30508	Kumulierter Blindleistungsmittelwert Abgabe		var	floatbe	2	1	0		value			
+30510	Max. Wert der Wirkleistung in der Messperiode		W	floatbe	2	1	0		value			
+30512	Min. Wert der Wirkleistung in der Messperiode		W	floatbe	2	1	0		value			
+30514	Max. Wert der Blindleistung in der Messperiode		var	floatbe	2	1	0		value			
+30516	Min. Wert der Blindleistung in der Messperiode		var	floatbe	2	1	0		value			
+30518	Länge der aktuellen Messperiode		s	uint32be	2	1	0		value			
+30520	Zeit seit Beginn der aktuellen Messperiode		s	uint32be	2	1	0		value			
+30546	Zeitstempel aktuelle Periode (UTC)			int32be	2	1	0		value			
+30548	OID aktuelle Periode			uint32be	2	1	0		value			
+30550	Wirkarbeit - Bezug aktuelle Periode		Wh	floatbe	2	1	0		value			
+30552	Blindarbeit - Bezug aktuelle Periode		varh	floatbe	2	1	0		value			
+30554	Wirkarbeit - Abgabe aktuelle Periode		Wh	floatbe	2	1	0		value			
+30556	Blindarbeit - Abgabe aktuelle Periode		varh	floatbe	2	1	0		value			
+30558	Länger der Lastprofilperiode		ms	uint32be	2	1	0		value			
+30560	Inform. flag Bytes aktuelle Periode			uint32be	2	1	0		value			
+30562	Summe der Wirkarbeit - Bezug Tarif 1, aktuelle Periode		Wh	doublebe	4	1	0		value			
+30566	Summe der Wirkarbeit - Bezug Tarif 2, aktuelle Periode		Wh	doublebe	4	1	0		value			
+30570	Summe der Blindarbeit - Bezug Tarif 1, aktuelle Periode		varh	doublebe	4	1	0		value			
+30574	Summe der Blindarbeit - Bezug Tarif 2, aktuelle Periode		varh	doublebe	4	1	0		value			
+30578	Summe der Wirkarbeit - Abgabe Tarif 1, aktuelle Periode		Wh	doublebe	4	1	0		value			
+30582	Summe der Wirkarbeit - Abgabe Tarif 2, aktuelle Periode		Wh	doublebe	4	1	0		value			
+30586	Summe der Blindarbeit - Abgabe Tarif 1, aktuelle Periode		varh	doublebe	4	1	0		value			
+30590	Summe der Blindarbeit - Abgabe Tarif 2, aktuelle Periode		varh	doublebe	4	1	0		value			
+30594	Summe der Wirkarbeit - Bezug Tarif 1 + 2, aktuelle Periode		varh	doublebe	4	1	0		value			
+30598	Summe der Wirkarbeit - Abgabe Tarif 1 + 2, aktuelle Periode		Wh	doublebe	4	1	0		value			
+30800	Datum / Zeit (UTC)			int32be	2	1	0		value			
+30802	Wirkarbeit Bezug Tarif 1		Wh	doublebe	4	1	0		value			
+30806	Wirkarbeit Bezug Tarif 2		Wh	doublebe	4	1	0		value			
+30810	Wirkarbeit Abgabe Tarif 1		Wh	doublebe	4	1	0		value			
+30814	Wirkarbeit Abgabe Tarif 2		Wh	doublebe	4	1	0		value			
+30818	Blindarbeit Bezug Tarif 1		varh	doublebe	4	1	0		value			
+30822	Blindarbeit Bezug Tarif 2		varh	doublebe	4	1	0		value			
+30826	Blindarbeit Abgabe Tarif 1		varh	doublebe	4	1	0		value			
+30830	Blindarbeit Abgabe Tarif 2		varh	doublebe	4	1	0		value			
+30834	Scheinarbeit Tarif 1		VAh	doublebe	4	1	0		value			
+30838	Scheinarbeit Tarif 2		VAh	doublebe	4	1	0		value			
+30842	L1 Wirkarbeit Bezug Tarif 1		Wh	doublebe	4	1	0		value			
+30846	L1 Wirkarbeit Bezug Tarif 2		Wh	doublebe	4	1	0		value			
+30850	L1 Wirkarbeit Abgabe Tarif 1		Wh	doublebe	4	1	0		value			
+30854	L1 Wirkarbeit Abgabe Tarif 2		Wh	doublebe	4	1	0		value			
+30858	L1 Blindarbeit Bezug Tarif 1		varh	doublebe	4	1	0		value			
+30862	L1 Blindarbeit Bezug Tarif 2		varh	doublebe	4	1	0		value			
+30866	L1 Blindarbeit Abgabe Tarif 1		varh	doublebe	4	1	0		value			
+30870	L1 Blindarbeit Abgabe Tarif 2		varh	doublebe	4	1	0		value			
+30874	L1 Scheinarbeit Tarif 1		VAh	doublebe	4	1	0		value			
+30878	L1 Scheinarbeit Tarif 2		VAh	doublebe	4	1	0		value			
+30882	L2 Wirkarbeit Bezug Tarif 1		Wh	doublebe	4	1	0		value			
+30886	L2 Wirkarbeit Bezug Tarif 2		Wh	doublebe	4	1	0		value			
+30890	L2 Wirkarbeit Abgabe Tarif 1		Wh	doublebe	4	1	0		value			
+30894	L2 Wirkarbeit Abgabe Tarif 2		Wh	doublebe	4	1	0		value			
+30898	L2 Blindarbeit Bezug Tarif 1		varh	doublebe	4	1	0		value			
+30902	L2 Blindarbeit Bezug Tarif 2		varh	doublebe	4	1	0		value			
+30906	L2 Blindarbeit Abgabe Tarif 1		varh	doublebe	4	1	0		value			
+30910	L2 Blindarbeit Abgabe Tarif 2		varh	doublebe	4	1	0		value			
+30914	L2 Scheinarbeit Tarif 1		VAh	doublebe	4	1	0		value			
+30918	L2 Scheinarbeit Tarif 2		VAh	doublebe	4	1	0		value			
+30922	L3 Wirkarbeit Bezug Tarif 1		Wh	doublebe	4	1	0		value			
+30926	L3 Wirkarbeit Bezug Tarif 2		Wh	doublebe	4	1	0		value			
+30930	L3 Wirkarbeit Abgabe Tarif 1		Wh	doublebe	4	1	0		value			
+30934	L3 Wirkarbeit Abgabe Tarif 2		Wh	doublebe	4	1	0		value			
+30938	L3 Blindarbeit Bezug Tarif 1		varh	doublebe	4	1	0		value			
+30942	L3 Blindarbeit Bezug Tarif 2		varh	doublebe	4	1	0		value			
+30946	L3 Blindarbeit Abgabe Tarif 1		varh	doublebe	4	1	0		value			
+30950	L3 Blindarbeit Abgabe Tarif 2		varh	doublebe	4	1	0		value			
+30954	L3 Scheinarbeit Tarif 1		VAh	doublebe	4	1	0		value			
+30958	L3 Scheinarbeit Tarif 2		VAh	doublebe	4	1	0		value			
+30962	Sekundäre Summe der Wirkarbeit - Bezug (MID Register)		Wh	doublebe	4	1	0		value			
+30966	Sekundäre Summe der Wirkarbeit - Abgabe (MID Register)		Wh	doublebe	4	1	0		value			
+32802	Summe der Wirkarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32804	Summe der Wirkarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32806	Summe der Wirkarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32808	Summe der Wirkarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32810	Summe der Blindarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32812	Summe der Blindarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32814	Summe der Blindarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32816	Summe der Blindarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32818	Summe der Scheinarbeit - Tarif 1		VAh	floatbe	2	1	0		value			
+32820	Summe der Scheinarbeit - Tarif 2		VAh	floatbe	2	1	0		value			
+32822	L1 Wirkarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32824	L1 Wirkarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32826	L1 Wirkarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32828	L1 Wirkarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32830	L1 Blindarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32832	L1 Blindarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32834	L1 Blindarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32836	L1 Blindarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32838	L1 Scheinarbeit - Tarif 1		VAh	floatbe	2	1	0		value			
+32840	L1 Scheinarbeit - Tarif 2		VAh	floatbe	2	1	0		value			
+32842	L2 Wirkarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32844	L2 Wirkarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32846	L2 Wirkarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32848	L2 Wirkarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32850	L2 Blindarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32852	L2 Blindarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32854	L2 Blindarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32856	L2 Blindarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32858	L2 Scheinarbeit - Tarif 1		VAh	floatbe	2	1	0		value			
+32860	L2 Scheinarbeit - Tarif 2		VAh	floatbe	2	1	0		value			
+32862	L3 Wirkarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32864	L3 Wirkarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32866	L3 Wirkarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32868	L3 Wirkarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32870	L3 Blindarbeit - Bezug Tarif 1		Wh	floatbe	2	1	0		value			
+32872	L3 Blindarbeit - Bezug Tarif 2		Wh	floatbe	2	1	0		value			
+32874	L3 Blindarbeit - Abgabe Tarif 1		varh	floatbe	2	1	0		value			
+32876	L3 Blindarbeit - Abgabe Tarif 2		varh	floatbe	2	1	0		value			
+32878	L3 Scheinarbeit - Tarif 1		VAh	floatbe	2	1	0		value			
+32880	L3 Scheinarbeit - Tarif 2		VAh	floatbe	2	1	0		value			
+32882	Sekundäre Summe der Wirkarbeit - Bezug (MID Register)		Wh	floatbe	2	1	0		value			
+32884	Sekundäre Summe der Wirkarbeit - Abgabe (MID Register)		Wh	floatbe	2	1	0		value			
